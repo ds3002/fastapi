@@ -1,6 +1,14 @@
 # API Assignment
 
-## Create an API
+## Clone this repository
+
+```
+git clone https://github.com/ds3002/fastapi.git
+```
+
+You may build upon the code in `app/main.py` or create a new `.py` file from scratch.
+
+## Customize Your API
 
 Use `FastAPI` (to run locally) that achieves the following four goals:
 
