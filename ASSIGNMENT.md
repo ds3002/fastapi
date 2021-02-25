@@ -12,10 +12,10 @@ You may build upon the code in `app/main.py` or create a new `.py` file from scr
 
 Use `FastAPI` (to run locally) that achieves the following four goals:
 
-1. Create a GET endpoint http://127.0.0.1:8000/test
+1. Create a GET endpoint `http://127.0.0.1:8000/test`
 That takes FOUR query string parameters (parameters appended to the URL such as http://127.0.0.1:8000/test?one=xxx&two=yyy&three=zzz&four=aaa) and displays them back. Two of these must be strings and two must be integers.
 
-2. Create a POST endpoint http://127.0.0.1:8000/items/{item_id}
+2. Create a POST endpoint `http://127.0.0.1:8000/items/{item_id}`
 That takes an "item_id" as a path parameter and a "description" in a data payload and appends them both to a text file.
 
 3. Create a GET endpoint `http://127.0.0.1:8000/quotes/{row_number}`
