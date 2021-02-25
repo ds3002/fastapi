@@ -18,7 +18,7 @@ Use `FastAPI` (to run locally) that achieves the following four goals:
 
 3. Create a GET endpoint "http://127.0.0.1:8000/quotes/{row_number}" that takes a "row_number" parameter and returns the corresponding row (1-10) from the "quotes.txt" file included here. --> Helpful reference on extracting lines: https://www.computerhope.com/issues/ch001721.htm
 
-4. Create a GET endpoint "http://127.0.0.1:8000/github/{username}" that retrieves and returns the URL of the specified user's Github profile picture and returns it. --> Github User API reference: https://docs.github.com/en/rest/reference/users
+4. Create a GET endpoint http://127.0.0.1:8000/github/{username}\nThat retrieves and returns the URL of the specified user's Github profile picture and returns it. --> Github User API reference: https://docs.github.com/en/rest/reference/users
 
 FastAPI Documentation: https://fastapi.tiangolo.com/
 
